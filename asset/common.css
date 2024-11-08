@@ -1,0 +1,12 @@
+h1 { 
+	color: tomato;
+}
+
+* { margin-top: 1em; }
+:root {
+	--base-size: 20px;
+}
+
+body {
+	font-size: var(--base-size);
+}
