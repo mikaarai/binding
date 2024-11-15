@@ -1,5 +1,5 @@
 * {
-	margin-top: 1em;
+	margin-top: 0.5em;
   }
   
   
@@ -9,11 +9,9 @@
 	justify-content: center;
   }
   nav {
-	border-top: 2px solid black;
-	border-bottom: 2px solid black;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
 	background-color: rgb(242, 227, 88);
-
-
   }
   .navbar a {
 	padding-left: 16px;
@@ -27,37 +25,58 @@
   
   
   h1 {
-	font-family: manrope;
+	font-family: geist mono;
 	font-size: var(--base-size-h1);
-	font-weight: 700;
-	letter-spacing: -1px;
-	line-height: 130%;
+	font-weight: 600;
+	letter-spacing: -2px;
+	line-height: 120%;
+    margin-top: 1rem;
+	margin-bottom: 2rem;
   }
   h2 {
 	font-size: var(--base-size-h2);
-	font-weight: 500;
-	color: black; 
+	color: grey; 
 	line-height: 130%;
 	margin-bottom: 2rem;
-  }
-  .author {
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
+	font-family: geist mono;
+}
+.author {
+	  border-top: 2px solid rgb(80, 80, 80);
+	padding-top: 1rem;
+	/* border-top: 1px solid black; */
+	/* border-bottom: 1px solid black; */
+	font-weight: 700;
   }
   h3 {
 	font-family: manrope;
 	font-size: var(--base-size-h3);
-	font-weight: 700;
+	font-weight: 600;
 	line-height: 100%;
 	color:black;
-
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	background-color: rgb(242, 227, 88);
 	margin-top: 2rem;
 	margin-bottom: 1rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
   }
   
-  
+  H4 {
+	font-weight: 400;
+	margin-top: 2rem;
+	color: white;
+	background-color: black;
+	padding-left: 8px;
+    width: 28%;
+  }
+  h5 {
+	text-align: center;
+	font-weight: 500;
+	font-size: 1.1rem;
+  }
   body {
-	font-family: var(--base-font-family);
+	font-family: geist;
 	font-size: var(--base-size);
 	margin-left: var(--base-margin-left);
 	margin-right: var(--base-margin-right);
@@ -67,23 +86,43 @@
 	line-height: var(--base-line-height);
   }
   header {
-	background-color: rgb(242, 227, 88);
+	/* background-color: rgb(242, 227, 88); */
 
 	/* display: none; */
   }
-  
-  
-  footer {
-	background-color: pink;
-	color: black;
-	padding-top: 15%;
-	padding-bottom: 15%;
-	padding-left: 5%;
-	padding-right: 5%;
-	  /* padding: 0; */
-	margin: -3%;
+  blockquote {
+	padding-left: 10%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	border-left: 4px solid lightgray;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
   }
   
+  .highlight {
+	background-color: rgb(242, 227, 88);
+  }
+
+  footer {
+	background-color: rgb(242, 227, 88);
+	color: black;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-right: -3%;
+	margin-left: -3%;
+	margin-bottom: -3%;
+	margin-top: 10%;
+  }
+em {
+	font-weight: 600;
+}
+
+a {
+	border-bottom: 2px solid;
+}
+
   @media (min-width: 769px) {
   
   nav {
