@@ -87,10 +87,6 @@
   section {
 	line-height: var(--base-line-height);
   }
-  header {
-	/* display: none; */
-  }
-  
   blockquote {
 	padding-left: 10%;
 	padding-top: 5%;
