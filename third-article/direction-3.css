@@ -1,5 +1,5 @@
 * {
-	margin-top: 1em;
+	margin-top: 0.5em;
   }
   
   .container {
@@ -12,7 +12,9 @@
   
   .container-2 {
 	max-width: 70ch;
+	/* margin-left: 0.5rem; */
   }
+
   .navbar {
 	list-style-type: circle;
 	display: flex;
@@ -21,6 +23,7 @@
   nav {
 	/* background-color: blue; */
 	color: black;
+	/* width: 300px; */
   }
   .navbar a {
 	border: 2px solid black;
@@ -29,15 +32,13 @@
 	padding-right: 16px;
 	padding-top: 6px;
 	padding-bottom: 6px;
-	margin: 1%;
+	margin: 0.3rem;
 	background-color: pink;
 	font-weight: 700;
 	filter: drop-shadow(5px 5px black);
-	}
+	display: inline-block;
+}
   
-  header {
-	margin: 0 auto;
-  }
 
   h1 {
 	font-family: alfa slab one;
@@ -56,7 +57,6 @@
 	margin-bottom: 2rem;
 	position: relative;
 	z-index: 5;
-
   }
   .author {
 	border-top: 1px solid black;
@@ -71,8 +71,8 @@
 	margin-top: 2rem;
 	margin-bottom: 1rem;
 	letter-spacing: -1px;
-	border-bottom: 2px solid black;
-	border-top: 2px solid black;
+	padding-bottom: 1rem;
+	/* border-bottom: 2px solid black; */
 	box-sizing: border-box;
 
 
@@ -90,17 +90,21 @@
 	display: inline-block;
 
   }
+
   h5 {
 	text-align: center;
-	font-weight: 600;
-	font-size: 1.1rem;
-	font-family: manrope;
-  }
+	font-size: 1.2rem;
+	font-family: var(--base-font-family-h1);
+	margin-left: 1rem;
+	letter-spacing: 1px;
+  } 
   body {
 	font-family: var(--base-font-family-body);
 	font-size: var(--base-size);
 	margin-right: var(--base-margin-right);
+	margin-left: var(--base-margin-left);
 	line-height: var(--base-line-height);
+	overflow-x: hidden;
   }
   section {
 	line-height: var(--base-line-height);
@@ -114,15 +118,22 @@
 	margin-bottom: 2rem;
   }
 
-  em {
-	font-weight: 600;
+.bold {
+	font-weight: 700;
+}
+.highlight {
+	background-color: rgb(255, 225, 230);
+}
+.italic {
+	font-style: italic;
+	font-weight: 500;
 }
 .circle-container {
 	display: flex;
 	position: absolute;
 	align-items: center;
 	justify-content: center;
-	top: 120px;
+	top: 180px;
 	left: 300px;
 	z-index: 1;
 }
@@ -154,11 +165,10 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	top: 500px;
+	top: 550px;
 	right: 20px;
 	margin: 50px auto;
 	z-index: 1;	
-
 }
 .star {
 	position: absolute;
@@ -196,8 +206,9 @@
 	background-color: green;
 } */
 
-a {
-	border-bottom: 2px solid;
+article a {
+		color: green;
+		font-weight: 700;
 }
   footer {
 	background-color: green;
@@ -208,12 +219,81 @@ a {
 	padding-right: 5%;
 	margin-top: 10%;
 	border-radius: 1rem;
-
   }
- 
+
+  footer a {
+	color: white;
+	font-weight: 600;
+	border-bottom: 1px solid white;
+  }
+
+
   @media (min-width: 769px) {
   
   nav {
 	margin-left: 70%;  
    }
+   body {
+	margin-left: 2%;
+   }
+.circle-container {
+	display: flex;
+	position: absolute;
+	align-items: center;
+	justify-content: center;
+	top: 120px;
+	left: 1000px;
+	z-index: 1;
+}
+.circle {
+	width: 100px;
+	height: 100px;
+	background-color: skyblue;
+	border-radius: 50%;
+}
+.triangle-container {
+	display: flex;
+	position: absolute;
+	align-items: center;
+	justify-content: center;
+	top: 320px;
+	left: 250px;
+	z-index: 1;	
+}
+.triangle {
+	width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-bottom: 50px solid transparent;
+	border-left: 100px solid #ffce44;
+}
+.star-container {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	top: 400px;
+	right: 300px;
+	margin: 50px auto;
+	z-index: 1;	
+}
+.star {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-left: 100px solid #de5246;
+	transform-origin: bottom center;
+}
+
+.star:nth-child(1) { transform: rotate(0deg); }
+.star:nth-child(2) { transform: rotate(40deg); }
+.star:nth-child(3) { transform: rotate(80deg); }
+.star:nth-child(4) { transform: rotate(120deg); }
+.star:nth-child(5) { transform: rotate(160deg); }
+.star:nth-child(6) { transform: rotate(200deg); }
+.star:nth-child(7) { transform: rotate(240deg); }
+.star:nth-child(8) { transform: rotate(280deg); }
+.star:nth-child(9) { transform: rotate(320deg); }
   }
