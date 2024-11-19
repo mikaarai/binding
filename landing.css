@@ -147,11 +147,13 @@
 
  
   @media (min-width: 769px) {
-  
-  nav {
-	margin-left: 70%;  
-   }
+	/* nav bar  */
+	nav {
+		  margin-left: 70%;  
+		}
+		
 
+		/* body */
    h2 {
 	margin-left: 2rem;
    }
@@ -171,7 +173,6 @@
 	font-size: var(--base-size-h1);
 	/* line-height: 200%; */
 	margin: 0;
-	
 }
 .article li {
 	border-top: 2px solid black;
@@ -193,4 +194,82 @@ transform: translateY(-10px);
 background-color: rgb(255, 91, 91);
 transform: translateY(-10px);
 }
+
+
+  /* shapes  */
+  .circle-container {
+	display: flex;
+	position: absolute;
+	align-items: center;
+	justify-content: center;
+	top: 80px;
+	left: 1000px;
+	z-index: 1;
 }
+.circle {
+	width: calc(100px * 1.5);
+	height: calc(100px * 1.5);
+	background-color: skyblue;
+	border-radius: 50%;
+}
+
+.triangle-container {
+	display: flex;
+	position: absolute;
+	align-items: center;
+	justify-content: center;
+	top: 320px;
+	left: 200px;
+	z-index: 1;	
+}
+.triangle {
+	width: 0;
+	height: 0;
+	border-top: calc(50px * 1.5) solid transparent;
+	border-bottom: calc(50px * 1.5) solid transparent;
+	border-left: calc(100px * 1.5) solid #ffce44;
+}
+.star-container {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	top: 400px;
+	right: 300px;
+	margin: 50px auto;
+	z-index: 1;	
+}
+.star {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-top: calc(10px * 1.5) solid transparent;
+	border-bottom: calc(5px * 1.5) solid transparent;
+	border-left: calc(100px * 1.5) solid #de5246;
+	transform-origin: bottom center;
+}
+.star:nth-child(1) { transform: rotate(0deg); }
+.star:nth-child(2) { transform: rotate(40deg); }
+.star:nth-child(3) { transform: rotate(80deg); }
+.star:nth-child(4) { transform: rotate(120deg); }
+.star:nth-child(5) { transform: rotate(160deg); }
+.star:nth-child(6) { transform: rotate(200deg); }
+.star:nth-child(7) { transform: rotate(240deg); }
+.star:nth-child(8) { transform: rotate(280deg); }
+.star:nth-child(9) { transform: rotate(320deg); }
+.rectangle-container {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	top:100px;
+	left: 500px;
+	z-index: -1;	
+}
+.rectangle {
+	width: calc(80px * 1.5);
+	height: calc(80px * 1.5);
+	background-color: rgb(114, 171, 114);
+	transform: rotate(45deg);
+}
+  }
