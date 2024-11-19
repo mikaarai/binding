@@ -41,7 +41,7 @@
   
 /* body */
   h1 {
-	font-family: alfa slab one;
+	font-family: var(--base-font-family-h1);
 	font-size: var(--base-size-h1);
 	line-height: 130%;
 	margin-top: -0.0001rem;
@@ -59,7 +59,7 @@
 	z-index: 5;
   }
   h3 {
-	  font-family: manrope;
+	  font-family: var(--base-font-family-body);
 	  font-size: 2rem;
 	  font-weight: 900;
 	  line-height: 100%;
