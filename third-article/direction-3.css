@@ -1,9 +1,18 @@
 * {
 	margin-top: 1em;
-	max-width: 80ch;
   }
   
+  .container {
+	/* height: 100vh; */
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
   
+  .container-2 {
+	max-width: 70ch;
+  }
   .navbar {
 	list-style-type: circle;
 	display: flex;
@@ -62,6 +71,10 @@
 	margin-top: 2rem;
 	margin-bottom: 1rem;
 	letter-spacing: -1px;
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+	box-sizing: border-box;
+
 
   }
   H4 {
@@ -74,7 +87,8 @@
 	border-radius: 9999px;
 	padding-left: 8px;
 	padding-right: 8px;
-	width: 27%;
+	display: inline-block;
+
   }
   h5 {
 	text-align: center;
@@ -83,9 +97,8 @@
 	font-family: manrope;
   }
   body {
-	font-family: var(--base-font-family);
+	font-family: var(--base-font-family-body);
 	font-size: var(--base-size);
-	margin-left: var(--base-margin-left);
 	margin-right: var(--base-margin-right);
 	line-height: var(--base-line-height);
   }
