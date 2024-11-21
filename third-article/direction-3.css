@@ -127,7 +127,7 @@
 	font-weight: 500;
 }
 article a {
-		color: green;
+		color: orange;
 		font-weight: 700;
 }
 
@@ -418,7 +418,7 @@ article a {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	top: 3050px;
+	top: 2600px;
 	left: 200px;
 	margin: 50px auto;
 	z-index: -1;	
