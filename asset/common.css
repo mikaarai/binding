@@ -1,15 +1,15 @@
 :root {
-  --base-size: 1.1rem;
+  --base-size: 1.2rem;
   --base-size-h1: 2.2rem;
   --base-size-h2: 1.2rem;
   --base-size-h3: 1.5rem;
-  --base-size-h1-landing: 3.5rem;
+  --base-size-h1-landing: 4.3rem;
   --base-font-family-h1: alfa slab one;
   --base-font-family-body: manrope; 
   --base-color: black;
   --base-line-height: 150%;
   --base-text-align: center;
-  --base-max-width: 55vw; 
+  --base-max-width: 60ch; 
   --base-margin-left: 5%;
   --base-margin-right: 5%;
 }

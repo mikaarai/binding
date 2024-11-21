@@ -2,19 +2,22 @@
 	margin-top: 0.5em;
 	/* margin: 0; */
   }
+header {
+	margin-left: 5%;
+	margin-right: 5%;
+}
 
   h1 {
 	font-family: var(--base-font-family-h1);
 	font-size: var(--base-size-h1-landing);
-	line-height: 130%;
+	line-height: 120%;
 	margin-top: -0.0001rem;
 	position: relative;
 	z-index: 6;
 	max-width: 80ch;
 	text-align: center;
-	padding-top: 14rem;
-	padding-bottom: 14rem;
-
+	padding-top: 3rem;
+	padding-bottom: 2rem;
   }
   h2 {
 	font-size: 1rem;
@@ -24,8 +27,20 @@
 	padding-left:1rem;
 	padding-right: 1rem;
 	display: inline-block;
-
   } 
+  h3 {
+	font-family: var(--base-font-family-body);
+		font-size: var(--base-size-h2);
+		font-weight: 500;
+		color: rgb(72, 72, 72); 
+		line-height: 140%;
+		font-style: italic;
+		margin-bottom: 2rem;
+		text-align: center;
+		position: relative;
+		z-index: 5;
+		padding-bottom: 1rem;
+	  }
     h5 {
 	text-align: center;
 	font-size: 1.2rem;
@@ -33,7 +48,13 @@
 	margin-left: 1rem;
 	letter-spacing: 1px;
   } 
- 
+  .bold {
+	  font-weight: 800;
+
+  }
+.color {
+	background-color: pink;
+ }
 
 /* List */
 	.article {
@@ -47,19 +68,19 @@
 	.article li {
 	border-top: 2px solid black;
 	transition: transform 0.6s ease, background-color 0.6s ease;
-	padding-top: 2rem;
+	padding-top: 1rem;
 	padding-bottom: 0.5rem;
 	padding-left: 1rem;
 }
-	.article li:nth-child(1):hover {
+	.article li:nth-child(1):active {
 	background-color: rgb(176, 145, 183);
 	transform: translateY(-10px);
 }
-	.article li:nth-child(2):hover {
+	.article li:nth-child(2):active {
 	background-color: skyblue;
 	transform: translateY(-10px);
 }
-	.article li:nth-child(3):hover {
+	.article li:nth-child(3):active {
 	background-color: rgb(255, 91, 91);
 	transform: translateY(-10px);
 }
@@ -71,8 +92,8 @@
 	position: absolute;
 	align-items: center;
 	justify-content: center;
-	top: 120px;
-	left: 250px;
+	top: 40px;
+	left: 200px;
 	z-index: 1;
 }
 .circle {
@@ -86,7 +107,7 @@
 	position: absolute;
 	align-items: center;
 	justify-content: center;
-	top: 320px;
+	top: 200px;
 	left: -20px;
 	z-index: 1;	
 }
@@ -103,7 +124,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	top: 450px;
+	top: 280px;
 	right: 50px;
 	margin: 50px auto;
 	z-index: 1;	
@@ -151,7 +172,22 @@
 	nav {
 		  margin-left: 70%;  
 		}
-		
+h1 {
+	font-size: 5.5rem;
+	padding-top: 8rem;
+	text-align: center; 
+	padding-bottom: 8rem;
+  }
+
+  h3 {
+		font-size: 1.2rem;
+		line-height: 140%;
+		font-style: italic;
+		margin-bottom: 2rem;
+		text-align: center;
+		padding-bottom: 2rem;
+		/* max-width: 60ch; */
+	  }
 
 		/* body */
    h2 {
@@ -202,8 +238,8 @@ transform: translateY(-10px);
 	position: absolute;
 	align-items: center;
 	justify-content: center;
-	top: 80px;
-	left: 1000px;
+	top: 20px;
+	left: 800px;
 	z-index: 1;
 }
 .circle {
@@ -218,7 +254,7 @@ transform: translateY(-10px);
 	position: absolute;
 	align-items: center;
 	justify-content: center;
-	top: 320px;
+	top: 80px;
 	left: 200px;
 	z-index: 1;	
 }
@@ -234,8 +270,8 @@ transform: translateY(-10px);
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	top: 400px;
-	right: 300px;
+	top: 190px;
+	right: 250px;
 	margin: 50px auto;
 	z-index: 1;	
 }
@@ -262,8 +298,8 @@ transform: translateY(-10px);
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	top:100px;
-	left: 500px;
+	top:250px;
+	left: 550px;
 	z-index: -1;	
 }
 .rectangle {

@@ -11,7 +11,7 @@
 	align-items: center;
 }
 .container-2 {
-	max-width: 70ch;
+	max-width: var(--base-max-width);
 }
 
 
@@ -104,6 +104,9 @@
 	margin-left: var(--base-margin-left);
 	line-height: var(--base-line-height);
 	overflow-x: hidden;
+  }
+  p {
+	padding-bottom: 1rem;
   }
   section {
 	line-height: var(--base-line-height);
