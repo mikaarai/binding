@@ -15,6 +15,16 @@
 }
 
 
+/* background-color */
+.h1-background {
+	background-color: rgb(176, 145, 183);
+	margin: -2rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-top: 2rem;
+}
+
+
 /* nav bar */
   .navbar {
 	list-style-type: circle;
@@ -48,11 +58,13 @@
 	position: relative;
 	z-index: 6;
 	max-width: 80ch;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
   }
   h2 {
 	font-size: var(--base-size-h2);
 	font-weight: 500;
-	color: rgb(72, 72, 72); 
+	color: rgb(31, 31, 31); 
 	line-height: 130%;
 	margin-bottom: 2rem;
 	position: relative;
@@ -76,10 +88,10 @@
 	H4 {
 		font-weight: 500;
 		font-size: 1rem;
-		color: rgb(241, 129, 148);
+		color: rgb(40, 39, 39);
 		margin-top: 2.5rem;
 		margin-bottom: 1rem;
-		border: 2px solid rgb(241, 129, 148);;
+		border: 2px solid rgb(40, 39, 39);
 		border-radius: 9999px;
 		padding-left: 8px;
 		padding-right: 8px;
