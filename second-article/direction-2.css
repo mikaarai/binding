@@ -15,6 +15,17 @@
 }
 
 
+/* background-color */
+.h1-background {
+	background-color: rgb(176, 145, 183);
+	margin: -2rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-top: 2rem;
+	padding-bottom: 1rem;
+}
+
+
 /* nav bar */
   .navbar {
 	list-style-type: circle;
