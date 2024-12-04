@@ -316,14 +316,14 @@ article a {
 
 
 /* body */
-	h1 {
-		font-size: 4rem;
-		margin-top: 2rem;
-		margin-bottom: 2rem;
-	}
-   body {
+h1 {
+	font-size: 4rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+body {
 	margin-left: 2%;
-   }
+}
 
 
   /* shapes  */
