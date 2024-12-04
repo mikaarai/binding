@@ -337,6 +337,7 @@ article a {
 	padding-bottom: 1rem;
 }
 
+
 /* body */
 	h1 {
 		font-size: 4rem;
@@ -346,30 +347,16 @@ article a {
 
 	
 	h3 {
-		/* font-family: var(--base-font-family-body);
-		font-size: 2rem;
-		font-weight: 900;
-		line-height: 100%;
-		color:black; 
-		margin-top: 2rem;
-		margin-bottom: 1rem;
-		letter-spacing: -1px;
-		padding-bottom: 1rem; */
-		/* border-bottom: 2px solid black; */
-		/* box-sizing: border-box;
-		position: relative;
-		z-index: 6; */
-		margin-left: 24%;
+		max-width: var(--base-max-width);
+		margin: auto;
 	}
-   /* body {
-	margin-left: 2%;
-   } */
 
    .author {
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
 	margin-top: 0;
-	margin-left: 24%;
+	max-width: var(--base-max-width);
+	margin: auto;
   }
 
    section {
@@ -378,8 +365,10 @@ article a {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-left: 24%;
+	max-width: var(--base-max-width);
+	margin: auto;
   }
+
 
   /* shapes  */
 .circle-container {
