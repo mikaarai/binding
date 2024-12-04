@@ -5,13 +5,26 @@
 
   /* container */
   .container {
-	width: 100vw;
+	width: 97vw;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 .container-2 {
 	max-width: var(--base-max-width);
+}
+
+
+/* background-color */
+.h1-background {
+	background-color: rgb(255, 91, 91);
+	margin-top: -2rem;
+	margin-left: -2rem;
+	margin-right: -2rem;
+	padding-left: 2rem;
+	padding-right: 1rem;
+	padding-top: 2rem;
+	padding-bottom: 1rem;
 }
 
 
@@ -48,13 +61,15 @@
 	position: relative;
 	z-index: 6;
 	max-width: 80ch;
+	padding-top: 1rem;
+	padding-bottom: 1.5rem;
   }
   h2 {
 	font-size: var(--base-size-h2);
 	font-weight: 500;
-	color: rgb(72, 72, 72); 
+	color: rgb(31, 31, 31); 
 	line-height: 130%;
-	margin-bottom: 2rem;
+	margin-bottom: 1.8rem;
 	position: relative;
 	z-index: 5;
   }
@@ -96,6 +111,7 @@
 	.author {
 	  border-top: 1px solid black;
 	  border-bottom: 1px solid black;
+	  margin-top: 0;
 	}
   body {
 	font-family: var(--base-font-family-body);
@@ -156,8 +172,8 @@ article a {
 	position: absolute;
 	align-items: center;
 	justify-content: center;
-	top: 2650px;
-	left: -60px;
+	top: 2750px;
+	left: 20%;
 	z-index: -1;
 }
 .circle-2 {
@@ -172,7 +188,7 @@ article a {
 	align-items: center;
 	justify-content: center;
 	top: 320px;
-	left: -10px;
+	left: 50%;
 	z-index: 1;	
 }
 .triangle {
@@ -187,9 +203,9 @@ article a {
 	position: absolute;
 	align-items: center;
 	justify-content: center;
-	top: 3200px;
-	right: -20px;
-	z-index: 1;	
+	top: 3800px;
+	right: 10%;
+	z-index: -10;	
 }
 .triangle-2 {
 	width: 0;
@@ -232,8 +248,8 @@ article a {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	top: 4650px;
-	left: 20px;
+	top: 1450px;
+	right: 10%;
 	margin: 50px auto;
 	z-index: -1;	
 }
@@ -260,9 +276,9 @@ article a {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	top:1890px;
-	right: -20px;
-	z-index: 1;	
+	top:4490px;
+	left: 15%;
+	z-index: -10;	
 }
 .rectangle {
 	width: 80px;
