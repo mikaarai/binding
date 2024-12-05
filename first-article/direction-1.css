@@ -1,12 +1,10 @@
 * {
-	/* margin-top: 0.5em; */
 	box-sizing: border-box;
   }
   
 
 /* container */
 .container {
-	/* width: 97vw; */
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -19,7 +17,6 @@
 /* background-color */
 .h1-background {
 	background-color: rgb(176, 145, 183);
-	/* width: 97vw;  */
 	margin-top: -2rem;
 	margin-left: -2rem;
 	margin-right: -1.5rem;
@@ -344,13 +341,13 @@ article a {
 		margin-top: 2rem;
 		margin-bottom: 2rem;
 	}
-
-	
 	h3 {
 		max-width: var(--base-max-width);
 		margin: auto;
 	}
-
+h5 {
+	text-align: left;
+}
    .author {
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
