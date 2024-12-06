@@ -16,7 +16,7 @@ h1 {
   max-width: 80ch;
   text-align: center;
   padding-top: 3rem;
-  padding-bottom: 4rem;
+  padding-bottom: 5.5rem;
 }
 h2 {
   font-size: 1rem;
@@ -37,7 +37,7 @@ h3 {
   text-align: center;
   position: relative;
   z-index: 5;
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
 }
 h5 {
   text-align: center;
@@ -265,14 +265,14 @@ h5 {
     font-size: 5.5rem;
     padding-top: 8rem;
     text-align: center;
-    padding-bottom: 8rem;
+    padding-bottom: 9rem;
   }
   h3 {
     font-size: 1.2rem;
     line-height: 140%;
     margin-bottom: 2rem;
     text-align: center;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
   }
   h2 {
     margin-left: 2rem;
